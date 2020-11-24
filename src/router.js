@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 
-import slotExample from "./components/slotExample";
+import slotExampleP from "./components/slotExample/slotExampleP";
 
 Vue.use(VueRouter)
 
@@ -9,7 +9,7 @@ export default new VueRouter({
   routes: [
     {
       path: '/slotExample',
-      component: slotExample
+      component: slotExampleP
     }
   ]
 })

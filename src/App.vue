@@ -14,17 +14,9 @@
 </template>
 
 <script>
-import SlotExample from './components/slotExample'
-
 export default {
   name: 'app',
-  components: {
-      SlotExample
-  },
   data () {
-    return {
-      msg: 'Welcome to Your Vue.js App'
-    }
   }
 }
 </script>
